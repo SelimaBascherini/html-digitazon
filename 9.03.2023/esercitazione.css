@@ -1,0 +1,49 @@
+header{
+    display: flex;
+}
+header div:last-child{
+    margin-left: auto;
+}
+.news-detail {
+    border: 3px solid gray;
+    margin-bottom: 25px;
+    
+}
+ol li{
+    list-style: none;
+}
+main{
+    display: flex;
+}
+.brand-details{
+    border: 3px solid gray;
+    display: flex;
+}
+.images img{
+    height: 170px;
+    width: 200px;
+    padding: 15px;
+}
+main > div:first-child{
+    border-right: 3px solid grey;
+   margin-right: 20px;
+   padding: 20px;
+}
+.brand {
+    border-right: 3px solid gray;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.description p{
+    margin: 0;
+}
+.brand{
+    padding: 1rem;
+}
+.description{
+    padding: 1rem;
+}
+.news-detail{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

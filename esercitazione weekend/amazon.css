@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+   
+
+}
+header img:first-child{
+    width: 100px;
+    height: 100px;
+}
+header img{
+    width: 200px;
+    height: 100px;
+}
+
+.shop img{
+    
+    width: 320px;
+    height: 320px;
+    border: 3px solid rgb(88, 66, 66);
+    background-color: rgb(226, 208, 208);
+}
+.center_header div{
+   
+}
