@@ -1,0 +1,89 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #edb1f1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.navbar button{
+    border-radius: 20%;
+    background-color: #edbef0;
+    cursor: pointer;
+}
+.navbar button:hover{
+    color: purple;
+}
+
+
+header {
+    display: flex;
+    background-image: url(cover.3.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-size: 100% 100%;
+    padding-bottom: 200px;
+}
+
+header .artist{
+    align-items: end;
+    
+}
+
+.detail{
+    display: flex;
+    width: 10%;
+    
+    
+    
+}
+#iscriviti{
+    cursor: pointer;
+    text-align: center;
+    padding: 2;
+    height: 30px;
+    border-radius: 20%;
+    margin-top: 5px;
+    background: #9896f1;
+    
+}
+
+.artist{
+   width: 90%;
+  
+    
+}
+.song li {
+    border: 1px solid black;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.song{
+    align-items: center;
+    border-left: 100px;
+    padding-right: 500px;
+}
+.song ol li:hover{
+    color: #191949;
+    opacity: 0.8;
+    
+}
+.under_header{
+    display: flex;
+    padding-top: 5px;
+    
+}
+#follow {
+    border-radius: 30%;
+    background: #9896f1;
+}
+.under_header img{
+    padding-right: 30px;
+    padding-left: 35px;
+}
+    
+
+

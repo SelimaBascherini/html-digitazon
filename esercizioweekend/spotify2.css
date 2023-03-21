@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+}
+.sidebar{
+    background-color: aqua;
+    flex-grow: 1;
+
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 9;
+}
+.detail > .songs{
+    background-color: blueviolet;
+    height: 100%;
+}
+.songs > .song {
+    display: flex;
+    justify-content: space-around;
+}
+.currently_playing_song{
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+} 

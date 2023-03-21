@@ -2,16 +2,19 @@ header{
     display: flex;
     justify-content: space-between;
     background-color:rgb(255, 255, 255);
-   
-
+    align-items: center;
 }
+
 header img:first-child{
     width: 100px;
     height: 100px;
 }
-header img{
+
+header img:nth-child(2){
     width: 200px;
     height: 100px;
+    
+    
 }
 
 .shop img{
@@ -21,6 +24,18 @@ header img{
     border: 3px solid rgb(88, 66, 66);
     background-color: rgb(226, 208, 208);
 }
-.center_header div{
-   
+
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    
+}
+.shop > div {
+    display: flex;
+    flex-direction: column;
+    
+    
+
 }
