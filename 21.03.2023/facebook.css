@@ -1,0 +1,35 @@
+main{
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+.sxbar{
+    display: block;
+    background-color: aqua;
+    width: 30%;
+}
+.central{
+    background-color: blue;
+    width: 50%;
+    
+    
+}
+.under_central{
+    display: flex;
+    
+}
+.central .under_central {
+    justify-content: space-between ;
+}
+.dxbar {
+    background-color: brown;
+    width: 30%;
+}
+
+.central .feed div{
+    border: 3px solid black;
+    
+}

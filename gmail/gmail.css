@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#searchbar{
+    width: 500px;
+    
+}
+.sxbar button{
+    background-color: rgb(194, 231, 219);
+    border-radius: 20%;
+    font-size: 15px;
+    cursor: pointer;
+}
+.sxbar{
+    width: 10%;
+    padding-top: 50px;
+}
+.sxbar div{
+    padding-top: 30px;
+}
+.sxbar div:hover{
+    color: rgb(45, 27, 160);
+}
+.centralbar{
+    width: 70%;
+}
+main{
+    display: flex;
+}
+.centralbar{
+    padding-left: 100px;
+   
+}
+.centralbar li{
+    list-style: none;
+    border: 1px solid black;
+    background-color: rgb(194, 231, 219);
+    
+}
+.centralbar li:hover{
+    background-color: rgb(116, 116, 151);
+}
