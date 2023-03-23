@@ -1,0 +1,77 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(57, 53, 53);
+}
+.search{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    display: flex;
+}
+.search .searchbar{
+    width: 500px;
+} 
+
+.logo {
+    width: 25%;
+    color: white;
+    cursor: pointer;
+}
+.login{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.login img{
+    cursor: pointer;
+}
+.under_header{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(57, 53, 53);
+}
+.under_header a{
+    text-decoration: none;
+    color: white;
+}
+.under_header a:hover{
+    color: rgb(155, 155, 155);
+}
+.centerpage .top_center{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(86, 86, 86);
+    padding-left: 300px;
+    padding-right: 300px;
+    align-items: center;
+}
+.centerpage .top_center .meteo{
+    display: flex;
+    
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(86, 86, 86);
+}
+.boxsx{
+    margin: 0;
+    padding: 0;
+    padding-left: 160px;
+    
+    
+}
+.boxdx{
+    margin: 0;
+    padding-right: 100px;
+}
+.boxsx .boxdx{
+    display: flex;
+}

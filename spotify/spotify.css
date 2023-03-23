@@ -1,0 +1,19 @@
+body{
+    display: flex;
+}
+.sxbar{
+   background-color: rgb(0, 0, 0);
+   
+   
+}
+.sxbar div {
+    color: aliceblue;
+    padding-top: 50px;
+}
+.center_top{
+    background-color: blueviolet;
+    width: 100%;
+}
+.playmusic{
+    
+}
