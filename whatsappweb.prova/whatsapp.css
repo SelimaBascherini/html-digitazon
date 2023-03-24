@@ -1,0 +1,160 @@
+body{
+    display: flex;
+    background-image: url(background.jpg);
+}
+.sectionsx{
+    width: 25%;
+    height: 100%;
+}
+.headersx{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(60, 60, 60);
+    padding-bottom: 5px;
+    
+}
+.sectionsx .newaction img{
+    padding-right: 10px;
+    padding-top: 3px;
+    justify-content: center;
+}
+.sectionsx .newaction img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+.sectionsx .headersx .icon:hover {
+    cursor: pointer;
+}
+
+.searchbar{
+    width: 100%;
+}
+.chatsection .chat span{
+    position: relative;
+    left: 280px;
+    bottom: 20px;
+    color: white;
+}
+.chatsection .chat{
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(60, 60, 60);
+}
+.chatsection .chat:nth-child(2){
+    background-color: rgb(98, 91, 91);
+}
+.chatsection .chat img{
+    height: 30px;
+    justify-content: center;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.chatsection .chat p{
+    margin: 0;
+    padding: 0;
+    color: rgb(152, 150, 150);
+}
+.chatsection .chat h3{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.chatsection .chat p:hover{
+    color: white;
+    cursor: pointer;
+}
+.sectiondx{
+    width: 75%;
+}
+.headerdx{
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: space-between;
+}
+.headerdx h3{
+    color: white;
+}
+.headerdx div{
+    display: flex;
+}
+.headerdx img{
+    height: 30px;
+    padding-top: 15px;
+}
+.iconheader img{
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.iconheader_dx img{
+    padding: 10px;
+    height: 15px;
+    padding-top: 23px;
+    cursor: pointer;
+}
+.iconheader_dx img:hover{
+    opacity: 0.3;
+}
+.central div{
+    border: solid 1px black;
+    margin: 15px;
+    margin-left: 150px;
+    padding-left: 0px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(84, 83, 83);
+    border-radius: 10%;
+}
+.central .box {
+    position: relative;
+    right: 140px;
+    bottom: 10px;
+    display: flex;
+    width: 90%;
+    border: 1px solid rgb(84, 83, 83);
+}
+.central span{
+    color: white;
+    padding-bottom: 5px;
+}
+.central p{
+    color: white;
+    padding: 0;
+    margin: 0;
+    padding-top: 3px;
+}
+.central h5{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 15px;
+    left: 160px;
+    color: white;
+}
+.central .mess4{
+    position: relative;
+    left: 700px;
+    background-color: rgb(4, 23, 4);
+}
+.central .mess4 .box{
+    background-color: rgb(4, 23, 4);
+    border: none;
+}
+.central .mess4 h5{
+    color: white;
+}
+.central span:hover{
+    color: rgb(135, 127, 127);
+}
+footer{
+    display: flex;
+    background-color: rgb(60, 60, 60);
+    justify-content: space-between;
+    justify-content: center;
+    height: 50px;
+    padding-top: 15px;
+}
+footer .newtype{
+    width: 850px;
+}
